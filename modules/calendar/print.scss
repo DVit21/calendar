@@ -1,0 +1,116 @@
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 3mm;
+  width: 210mm;
+  height: 297mm;
+  .form {
+    visibility: hidden;
+    height: 0;
+  }
+  h1 {
+    color: black;
+    padding-left: 5%;
+  }
+  .calendar {
+    .month {
+      float: left;
+      width: 17.5em;
+      height: 14em;
+      border: solid black thin;
+      margin: 1em;
+      border-radius: 1em;
+      padding: 1em;
+      .header {
+        margin-left: 1em;
+        margin-bottom: 0.3em;
+        font-size: 1.3em;
+        font-weight: bolder;
+        display: grid;
+        width: 100%;
+
+      }
+      .nameDaysOfWeek {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em;
+        margin-bottom: 0.4em;
+        border-bottom: solid black thin;
+        .name {
+          font-weight: bolder;
+          display: grid;
+          text-align: center;
+        }
+      }
+      .week {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em;
+        margin-bottom: 0.4em;
+        .weekend {
+          border: solid red thin;
+        }
+        .usualDay {
+          display: grid;
+          text-align: center;
+          //border-radius: 1em;
+          //border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .today {
+          display: grid;
+          text-align: center;
+          //border-radius: 1em;
+          //border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .churchDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: darkblue;
+          color: aliceblue;
+          border: solid darkblue thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .muslimDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: darkgreen;
+          color: aliceblue;
+          border: solid darkgreen thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .nationDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: red;
+          color: aliceblue;
+          border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+      }
+    }
+  }
+  .legend {
+    .partLegend {
+      float: left;
+      padding: 1em;
+      margin: 1em;
+      border-radius: 1em;
+      ul {
+        list-style: none;
+      }
+    }
+  }
+  .clear {
+    clear: both;
+  }
+}

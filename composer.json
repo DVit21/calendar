@@ -1,0 +1,27 @@
+{
+  "name": "dvitoshnov/private",
+  "version": "0.1.0",
+  "type": "personal-site",
+  "description": "Персональный сайт для собственного удовольствия.",
+  "keywords": ["Calendar", "сайт"],
+  "homepage": "https://vitoshnov.one",
+  "license": "LGPL-2.1-or-later",
+  "authors": [
+    {
+      "name": "Dmitriy Vitoshnov",
+      "homepage": "https://vitoshnov.one",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "libs\\": "./libs",
+      "modules\\": "./modules"
+    }
+  },
+  "require": {
+    "ext-calendar": "*",
+    "hubaishan/phphijri": "dev-master"
+  }
+}

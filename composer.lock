@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c53789e71f0ff3e489567e646a75f9d4",
+    "packages": [
+        {
+            "name": "hubaishan/phphijri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hubaishan/phphijri.git",
+                "reference": "fa9e80282c1ce38e21ed497fb41691f33b0fe410"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hubaishan/phphijri/zipball/fa9e80282c1ce38e21ed497fb41691f33b0fe410",
+                "reference": "fa9e80282c1ce38e21ed497fb41691f33b0fe410",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpHijri\\": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Saeed Hubaishan",
+                    "homepage": "http://www.salafitech.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "phpHijri is a PHP library for working with Hijri Calendar dates.",
+            "homepage": "http://www.salafitech.net",
+            "keywords": [
+                "UmAlQura",
+                "arabic",
+                "calendar",
+                "datetime",
+                "hijri",
+                "islamic",
+                "lunar"
+            ],
+            "support": {
+                "issues": "https://github.com/hubaishan/phphijri/issues",
+                "source": "https://github.com/hubaishan/phphijri/tree/master"
+            },
+            "time": "2019-12-01T14:08:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hubaishan/phphijri": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-calendar": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,145 @@
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  background: #403d3d;
+  letter-spacing: .3px;
+  font-size: 1rem;
+  .form {
+    background: aliceblue;
+    padding-left: 3%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    label {
+      font-size: 1.3em;
+      margin-right: 0.6em;
+    }
+    .form-control {
+      font-size: 1.3em;
+    }
+    .btn {
+      margin-left: 1em;
+      font-size: 1.3em;
+      display: inline-block;
+      padding: 0.375rem 0.75rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      border: 1px solid #0d6efd;
+      border-radius: 0.375rem;
+      background-color: #0d6efd;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+  }
+  h1 {
+    color: aliceblue;
+    padding-left: 5%;
+  }
+  .calendar {
+    .month {
+      float: left;
+      width:17.5em;
+      height: 14em;
+      background: aliceblue;
+      margin: 1em;
+      border-radius: 1em;
+      padding: 1em;
+      .header {
+        margin-left: 1em;
+        margin-bottom: 0.3em;
+        font-size: 1.3em;
+        font-weight: bolder;
+        display: grid;
+        width: 100%;
+
+      }
+      .nameDaysOfWeek {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em;
+        margin-bottom: 0.4em;
+        border-bottom: solid black thin;
+        .name {
+          font-weight: bolder;
+          display: grid;
+          text-align: center;
+        }
+      }
+      .week {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em;
+        margin-bottom: 0.4em;
+        .weekend {
+          border: solid red thin;
+        }
+        .usualDay {
+          display: grid;
+          text-align: center;
+          //border-radius: 1em;
+          //border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .today {
+          display: grid;
+          text-align: center;
+          //border-radius: 1em;
+          background: #5c0080;
+          color: aliceblue;
+          //border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .churchDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: darkblue;
+          color: aliceblue;
+          border: solid darkblue thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .muslimDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: darkgreen;
+          color: aliceblue;
+          border: solid darkgreen thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+        .nationDay {
+          display: grid;
+          text-align: center;
+          border-radius: 1em;
+          background: red;
+          color: aliceblue;
+          border: solid red thin;
+          margin-left: 0.25em;
+          margin-right: 0.25em;
+        }
+      }
+    }
+  }
+  .legend {
+    padding: 1em;
+    background: aliceblue;
+    margin: 1em;
+    border-radius: 1em;
+    ul {
+      list-style: none;
+    }
+  }
+  .clear {
+    clear: both;
+  }
+}

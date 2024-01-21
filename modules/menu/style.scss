@@ -1,0 +1,23 @@
+
+#top_menu {
+  width: 1em;
+  margin: 0.2em;
+  img {
+    width: 1em;
+    height: 1em;
+  }
+}
+
+
+.menu {
+  background-color: white;
+  border: solid thin grey;
+  top: 1.5em;
+  left: 0.6em;
+  position: absolute;
+  padding: 1em 0.5em;
+  overflow: hidden;
+  //height: 0;
+  //visibility: hidden;
+  width: 0;
+}
